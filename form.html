@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="publishid" content="11129117.0.1002.0">
+    <meta name="nodeid" content="0">
+    <meta name="nodename" content="">
+
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"
+        name="viewport" id="viewport" media="screen and (min-width:0px) and (max-width: 767px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+
+
+    <title>谣言线索</title>
+    <meta name="description" content=" ">
+    <link rel="stylesheet" href="css/jubao.css">
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .t {
+            pointer-events: none;
+        }
+    </style>
+    <style>
+        /* .shoj i {
+            float: right;
+            padding-left: 0;
+            padding-right: 4px;
+        } */
+    </style>
+    <style>
+        .part2,
+        .tj_box,
+        .tj_con {
+            height: auto;
+        }
+
+        .tj_box {
+            padding-bottom: 5px;
+            margin: 80px auto;
+        }
+
+        .tj_box i {
+            line-height: 50px;
+        }
+
+        .tj_con {
+            padding-bottom: 2px;
+        }
+
+        .shoj {
+            border: none;
+        }
+
+        .shoj input {
+            border: 1px solid #c4c7cb;
+        }
+
+        /* .shoj i {
+            line-height: 38px;
+        } */
+
+        .tjfj input[type=file] {
+            border: none;
+        }
+
+        .selt1,
+        .selt2,
+        .selt3 {
+            height: 20px;
+            margin-top: 18px;
+            box-sizing: content-box;
+        }
+
+        input[type=number]::-webkit-inner-spin-button {
+            display: none;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .lj,
+        .bq {
+            line-height: 55px;
+            text-align: center;
+        }
+
+        .lj p,
+        .lj textarea,
+        .bq p,
+        .bq textarea {
+            float: none;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            vertical-align: middle;
+            line-height: 25px;
+        }
+        
+
+        .tj_con input::-webkit-input-placeholder,
+        .tj_con textarea::-webkit-input-placeholder {
+            color: rgb(117, 117, 117);
+        }
+
+        .submit .btn-info {
+            width: 100px;
+            height: 40px;
+            background-color: #61B0FF;
+            border: 1px solid rgb(111, 175, 238);
+            color: #fff;
+            font-weight: 300px;
+            box-shadow: -1px -1px 8px 0 rgba(62, 104, 231, 0.28);
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border-radius: 5px;
+            font-size: 18px;
+
+        }
+
+        .submit .btn-info:hover,
+        .submit .btn-info:hover {
+            background-color: rgb(49, 130, 223);
+            border: 1px solid rgb(50, 124, 235);
+            color: #fff;
+            font-weight: 300px;
+            box-shadow: -1px -1px 8px 0 rgba(44, 83, 201, 0.28);
+        }
+
+        .submit .btn-info:active,
+        .submit .btn-info:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        @media screen and (min-width:0px) and (max-width: 767px) {
+            .content {
+                width: 340px;
+                height: auto;
+                margin: 0 auto;
+            }
+            .lj p,.bq p{
+            margin-left: 16px;
+        }
+            .i35 img {
+                width: 35% !important;
+            }
+
+            .i30 img {
+                width: 30% !important;
+            }
+
+            .i40 img {
+                width: 40% !important;
+            }
+
+            .part1 {
+                width: 100%;
+                height: auto;
+                border: 0px solid #e5e5e5;
+                padding: 0;
+            }
+
+            .part1 h2 {
+                font-size: 2rem;
+                color: #333;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+
+            .part1 p {
+                font-size: 1rem;
+                color: #333;
+                margin-top: 0.5rem;
+                padding: 0 1rem;
+            }
+
+            .nextTep {
+                width: 207px;
+                height: 58px;
+                margin: 0 auto;
+                padding: 30px 0 20px 0;
+                cursor: pointer;
+            }
+
+            .tj_box {
+                margin: 0 auto;
+                width: 100%;
+                border-radius: 0;
+                border: none;
+                margin: 0 auto;
+                margin-top: 0;
+            }
+
+
+            .tj_con {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                border: none;
+                margin: 0 auto;
+                margin-top: 0;
+            }
+
+            .bt textarea {
+                width: 60%;
+                text-align: left;
+            }
+
+            .selt1 {
+                margin-left: 0;
+            }
+
+            .selt3 {
+                margin-left: 0;
+            }
+
+            .bt p {
+                margin-top: 32px;
+                margin-bottom: 15px;
+                margin-left: 10px;
+            }
+
+            .lj textarea {
+                width: 70%;
+            }
+
+            .nr textarea {
+                width: 80%;
+                height: 200px;
+            }
+
+            .bq textarea {
+                width: 70%;
+            }
+
+            .bq p {
+                line-height: 55px;
+            }
+
+            .tjfj p {
+                margin-left: 30px;
+            }
+
+            .tjfj .txt {
+                margin: 0 0 15px 15px;
+            }
+
+            .part3 {
+                width: 100%;
+            }
+
+            .submit-succ {
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .submit-succ img {
+                width: 100%;
+                height: auto
+            }
+
+            .backreport {
+                width: 45%;
+                text-align: center;
+                height: 77px;
+                cursor: pointer;
+            }
+
+            .backreport img {
+                width: 100%;
+                height: auto;
+            }
+
+            .backindex {
+                width: 50%;
+                height: 57px;
+                cursor: pointer;
+                text-align: center;
+            }
+
+            .backindex img {
+                width: 100%;
+                height: auto;
+            }
+
+
+        }
+    </style>
+    <div class="content">
+        <div class="xh-fall-fallTitle">
+            <h2>在线提交</h2>
+        </div>
+        <!-- END -->
+        <!-- 举报提交 -->
+        <div class="part2 clearfix hide" style="display: block;">
+            <div class="tj_box clearfix">
+                <div class="tj_con">
+                    <!-- <input type="hidden" name="" value="02e9f999a48345299d34b4605f382be2"> -->
+                    <div class="bt">
+                        <i style="float:left; padding-top:20px; font-style: normal;">∗</i>
+                        <p>标题：</p>
+                        <textarea cols="25" placeholder="25个字以内" onfocus="if(placeholder=='25个字以内') {placeholder=''}"
+                            onblur="if (value=='') {placeholder='25个字以内'}" value=""></textarea>
+
+                    </div>
+                    <div class="dy">
+                        <i>∗</i>
+                        <p>地域：</p>
+                        <select class="selt1">
+                            <option value="volvo" selected="select">请选择省</option>
+                            <option value="北京" data-code="1561100000" data-name="北京" data-type="2">北京</option>
+                            <option value="天津" data-code="1561200000" data-name="天津" data-type="2">天津</option>
+                            <option value="河北省" data-code="1561300000" data-name="河北省" data-type="2">河北省</option>
+                            <option value="山西省" data-code="1561400000" data-name="山西省" data-type="2">山西省</option>
+                            <option value="内蒙古自治区" data-code="1561500000" data-name="内蒙古自治区" data-type="2">内蒙古自治区
+                            </option>
+                            <option value="辽宁省" data-code="1562100000" data-name="辽宁省" data-type="2">辽宁省</option>
+                            <option value="吉林省" data-code="1562200000" data-name="吉林省" data-type="2">吉林省</option>
+                            <option value="黑龙江省" data-code="1562300000" data-name="黑龙江省" data-type="2">黑龙江省</option>
+                            <option value="上海" data-code="1563100000" data-name="上海" data-type="2">上海</option>
+                            <option value="江苏省" data-code="1563200000" data-name="江苏省" data-type="2">江苏省</option>
+                            <option value="浙江省" data-code="1563300000" data-name="浙江省" data-type="2">浙江省</option>
+                            <option value="安徽省" data-code="1563400000" data-name="安徽省" data-type="2">安徽省</option>
+                            <option value="福建省" data-code="1563500000" data-name="福建省" data-type="2">福建省</option>
+                            <option value="江西省" data-code="1563600000" data-name="江西省" data-type="2">江西省</option>
+                            <option value="山东省" data-code="1563700000" data-name="山东省" data-type="2">山东省</option>
+                            <option value="河南省" data-code="1564100000" data-name="河南省" data-type="2">河南省</option>
+                            <option value="湖北省" data-code="1564200000" data-name="湖北省" data-type="2">湖北省</option>
+                            <option value="湖南省" data-code="1564300000" data-name="湖南省" data-type="2">湖南省</option>
+                            <option value="广东省" data-code="1564400000" data-name="广东省" data-type="2">广东省</option>
+                            <option value="广西壮族自治区" data-code="1564500000" data-name="广西壮族自治区" data-type="2">广西壮族自治区
+                            </option>
+                            <option value="海南省" data-code="1564600000" data-name="海南省" data-type="2">海南省</option>
+                            <option value="重庆" data-code="1565000000" data-name="重庆" data-type="2">重庆</option>
+                            <option value="四川省" data-code="1565100000" data-name="四川省" data-type="2">四川省</option>
+                            <option value="贵州省" data-code="1565200000" data-name="贵州省" data-type="2">贵州省</option>
+                            <option value="云南省" data-code="1565300000" data-name="云南省" data-type="2">云南省</option>
+                            <option value="西藏自治区" data-code="1565400000" data-name="西藏自治区" data-type="2">西藏自治区</option>
+                            <option value="陕西省" data-code="1566100000" data-name="陕西省" data-type="2">陕西省</option>
+                            <option value="甘肃省" data-code="1566200000" data-name="甘肃省" data-type="2">甘肃省</option>
+                            <option value="青海省" data-code="1566300000" data-name="青海省" data-type="2">青海省</option>
+                            <option value="宁夏回族自治区" data-code="1566400000" data-name="宁夏回族自治区" data-type="2">宁夏回族自治区
+                            </option>
+                            <option value="新疆维吾尔自治区" data-code="1566500000" data-name="新疆维吾尔自治区" data-type="2">新疆维吾尔自治区
+                            </option>
+                            <option value="台湾省" data-code="1567100000" data-name="台湾省" data-type="2">台湾省</option>
+                            <option value="香港特别行政区" data-code="1568100000" data-name="香港特别行政区" data-type="2">香港特别行政区
+                            </option>
+                            <option value="澳门特别行政区" data-code="1568200000" data-name="澳门特别行政区" data-type="2">澳门特别行政区
+                            </option>
+                        </select>
+                        <select class="selt2">
+                            <option value="volvo" selected="select">请选择市</option>
+                        </select>
+
+                    </div>
+                    <div class="lb">
+                        <i>∗</i>
+                        <p>类别：</p>
+                        <select class="selt3">
+                            <option value="volvo" selected="select">请选择</option>
+                            <option value="saab" data-value="0" data-des="0">时事政治</option>
+                            <option value="saab" data-value="1" data-des="0" data-old="暂留">党史国史</option>
+                            <option value="saab" data-value="2" data-des="0">食药卫生</option>
+                            <option value="saab" data-value="3" data-des="0">公共政策</option>
+                            <option value="saab" data-value="4" data-des="0">公共安全</option>
+                            <option value="saab" data-value="5" data-des="0">突发事件</option>
+                            <option value="saab" data-value="6" data-des="0">科学常识</option>
+                            <option value="saab" data-value="7" data-des="0">社会热点</option>
+                            <!--<option value="saab" data-value="1" data-des="0">视频</option>-->
+                            <option value="saab" data-value="8" data-des="0">其他</option>
+                        </select>
+
+                    </div>
+                    <div class="nr">
+                        <i>∗</i>
+                        <p>内容：</p>
+                        <textarea placeholder="请输入内容，字数不少于20字，不超过1000字"
+                            onfocus="if(placeholder=='请输入内容，字数不少于20字，不超过1000字') {placeholder=''}"
+                            onblur="if (value=='') {placeholder='请输入内容，字数不少于20字，不超过1000字'}" value=""></textarea>
+                    </div>
+                    <div class="lj">
+                        <p data-old="">链接：</p>
+                        <textarea placeholder="" data-placeholder="请输入举报单位名称，普通用户举报请输入“个人”"></textarea>
+                    </div>
+                    <div class="bq">
+                        <p data-old="来源">标签：</p>
+                        <textarea placeholder="请填写线索内容所在平台名称"
+                            onfocus="if(placeholder=='请填写线索内容所在平台名称') {placeholder=''}"
+                            onblur="if (value=='') {placeholder='请填写线索内容所在平台名称'}"></textarea>
+                    </div>
+                    <div class="tjfj">
+                        <p>添加附件：</p>
+
+                        <form action="" method="post" enctype="multipart/form-data" target="f-iframe"
+                            class="submit-form">
+                            <input type="file" id="file_upload1" multiple="" value="" placeholder="" class="choosefile"
+                                name="multipartFiles" accept=".jpg,.png,.rar,.jpeg" width="50" style="width: 200px;">
+                        </form>
+
+                        <div class="txt">注：上传附件不超过10M，总数量不超过10个。可用扩展名：jpg、png、jpeg</div>
+                    </div>
+                    <!-- <div class="sjyzm">
+                    <i>∗</i>
+                    <p>手机号码：</p>
+                    <input type="number" value="" placeholder="13800000000">
+                    </div> -->
+                    <div class="sjh">
+                        <i>∗</i>
+                        <p>手机号码：<input type="number" value="" placeholder="请输入手机号码"
+                                onfocus="if(placeholder=='请输入手机号码') {placeholder=''}"
+                                onblur="if (value=='') {placeholder='请输入手机号码'}"
+                                style='border: 1px solid #61B0FF;border-radius: 3px;'></p>
+
+                    </div>
+                </div>
+                <div class="submit">
+                    <button class="btn btn-info">提&nbsp;交</button>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+        <!-- 提交成功 -->
+
+    </div>
+</body>
+
+</html>
